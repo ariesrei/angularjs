@@ -1,0 +1,30 @@
+version: '2'
+
+services:
+
+  angularjs:
+    build: .
+    image: angularjs:latest
+    container_name: "angularjs-test"
+    hostname: angularjs
+    command: bin/run-devserver.sh
+
+    volumes:
+     - .:/opt/app-source:ro
+
+    ports:
+      - "3000:3000"
+      
+  angularjs_builder:
+    image: angularjs:latest
+    container_name: "angularjs-builder"
+    command: bin/autosync-builds.sh
+    
+    environment:
+     - BUILD_MODE=production
+  
+    volumes:
+      - ./dist:/opt/app/dist
+      - .:/opt/app-source:ro
+
+
