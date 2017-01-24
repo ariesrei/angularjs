@@ -1,13 +1,53 @@
 <!DOCTYPE html>
     
-<html style="height: 1000px; font-size: 10pt">
+<html ng-app="app">
     <head>
-        <title>Resizer</title>
-	<link rel="stylesheet" href="/assets/angular-test.css" />
-    </head>
-    <body>
+        <title>Angular JS Test</title>
+		<link rel="stylesheet" href="/assets/angular-test.css" type="text/css"/>
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css">
 
+    </head>
 	
+    <body>
+		
+		<div class="container">
+			<h1>Hello Angular!</h1>
+			<p ng-controller="helloCtrl">{{ hello }}</p>
+			
+			
+			<tabs>
+				
+				<pane title="Legal holidays" >
+					
+					<div ng-controller="legalHolidaysCtrl">
+								
+							<table style="width:100%;" class="table">
+								
+								<thead>
+									<tr>
+										<td><strong>Title</strong></td>
+										<td><strong>Company</strong></td>
+										<td><strong>Country</strong></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr ng-repeat="h in legalHolidays" legal-holiday holiday="h"></tr>
+								</tbody>
+							</table>
+
+					</div>
+				</pane>
+				
+				<pane title="Upcoming holidays">
+					Test 2
+				</pane>
+			
+			</tabs>
+			
+		</div>
+
+		
+		
         <script src="assets/test.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>

@@ -1,0 +1,304 @@
+{
+   "title":"All Holidays",
+   "editorURLPost":"\/at\/my_holidays\/postGridInputValue\/legal",
+   "editorURLGet":"\/at\/my_holidays\/getGridInputValues\/legal",
+   "page":0,
+   "limit":"10",
+   "rows":94,
+   "message":"There are no records found.",
+   "list":[
+      {
+         "id":82,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"New Year",
+         "from":"2004-01-01 00:00:00",
+         "to":"2004-01-01 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":87,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"Good Friday",
+         "from":"2004-04-09 00:00:00",
+         "to":"2004-04-09 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":89,
+         "companyID":"Demo Gestion Salaire
+ (Suisse) SA",
+         "title":"Easter Monday",
+         "from":"2004-04-12 00:00:00",
+         "to":"2004-04-12 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":91,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"Ascension
+ Day",
+         "from":"2004-05-20 00:00:00",
+         "to":"2004-05-20 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":93,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"Whit Monday",
+         "from":"2004-05-31 00:00:00",
+         "to":"2004-05-31 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":100,
+         "companyID":"Demo Gestion Salaire
+ (Suisse) SA",
+         "title":"Christmas",
+         "from":"2004-12-25 00:00:00",
+         "to":"2004-12-25 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":103,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"New Year",
+         "from":"2005-01-01
+ 00:00:00",
+         "to":"2005-01-01 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":108,
+         "companyID":"Demo
+ Gestion Salaire (Suisse) SA",
+         "title":"Good Friday",
+         "from":"2005-03-25 00:00:00",
+         "to":"2005-03-25 23
+:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":109,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"Easter",
+         "from":"2005-03-27 00:00:00",
+         "to":"2005-03-27 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      },
+      {
+         "id":110,
+         "companyID":"Demo Gestion Salaire (Suisse) SA",
+         "title":"Easter Monday",
+         "from":"2005-03-28
+ 00:00:00",
+         "to":"2005-03-28 23:59:59",
+         "country":"Switzerland",
+         "state":""
+      }
+   ],
+   "menus":[
+      {
+         "label":"Print",
+         "name":"print",
+         "icon":"a8-btn-icon-print",
+         "items":[
+            {
+               "name":"excel",
+               "code":"GRID_FIELD_EXCEL",
+               "icon":"a8-btn-icon-excel",
+               "label":"Excel"
+            },
+            {
+               "name":"pdf",
+               "code":"GRID_FIELD_PDF",
+               "icon":"a8-btn-icon-pdf",
+               "label":"PDF"
+            }
+         ]
+      },
+      {
+         "label":"Clear Filters",
+         "name":"clear",
+         "icon":"a8-icon-clear"
+      },
+      {
+         "label":"Default Columns",
+         "name":"resetColumns",
+         "icon":"a8-btn-icon-reset"
+      },
+      {
+         "label":"Filter Types",
+         "name":"filter_type",
+         "xtype":"combo",
+         "width":130,
+         "icon":"no-icon-cls",
+         "emptyText":"Filter Types",
+         "values":{
+            "user":"My Holidays",
+            "team":"My Team Holidays"
+         },
+         "default":"user",
+         "order":[
+            "user",
+            "team"
+         ]
+      },
+      {
+         "label":"-",
+         "name":"separator",
+         "xtype":"tbspacer"
+      },
+      {
+         "label":"Select Company",
+         "name":"company",
+         "xtype":"combo",
+         "width":230,
+         "icon":"no-icon-cls",
+         "emptyText":"Select Company",
+         "values":{
+            "-1":" All",
+            "6":"Demo Gestion AT",
+            "8":"Demo Gestion AT (France
+) SA",
+            "1":"Demo Gestion Salaire (Suisse) SA"
+         },
+         "order":[
+            -1,
+            6,
+            8,
+            1
+         ]
+      },
+      {
+         "label":"-",
+         "name":"separator",
+         "xtype":"tbspacer"
+      },
+      {
+         "label":"Year",
+         "name":"year",
+         "xtype":"combo",
+         "width":80,
+         "icon":"no-icon-cls",
+         "emptyText":"Year",
+         "values":{
+            "-1":"All",
+            "2004":2004,
+            "2005":2005,
+            "2006":2006,
+            "2007":2007,
+            "2008":2008,
+            "2009":2009,
+            "2010":2010,
+            "2011":2011,
+            "2012":2012,
+            "2013":2013,
+            "2014":2014,
+            "2015":2015,
+            "2016":2016
+         },
+         "order":[
+            -1,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+         ]
+      }
+   ],
+   "columnsList":[
+      {
+         "label":"Company",
+         "name":"companyID",
+         "xtype":"text",
+         "width":"160",
+         "show":1,
+         "filter":{
+            "xtype":"checkbox",
+            "action":{
+               "class":"user_subscriptions",
+               "method":"company_filter",
+               "params":""
+            },
+            "values":{
+               "6":"Demo Gestion AT",
+               "8":"Demo Gestion AT (France
+) SA",
+               "1":"Demo Gestion Salaire (Suisse) SA"
+            }
+         }
+      },
+      {
+         "label":"Title",
+         "name":"title",
+         "xtype":"text",
+         "width":"180",
+         "show":1,
+         "filter":{
+            "xtype":"textfield"
+         }
+      },
+      {
+         "label":"Start",
+         "name":"from",
+         "xtype":"date",
+         "anteOnly":"1",
+         "show":1,
+         "filter":{
+            "xtype":"date"
+         }
+      },
+      {
+         "label":"End",
+         "name":"to",
+         "xtype":"date",
+         "anteOnly":"1",
+         "show":1,
+         "filter":{
+            "xtype":"date"
+         }
+      },
+      {
+         "label":"Country",
+         "name":"country",
+         "xtype":"text",
+         "show":1,
+         "filter":{
+            "xtype":"textfield"
+         }
+      },
+      {
+         "label":"State",
+         "name":"state",
+         "xtype":"text",
+         "show":1,
+         "filter":{
+            "xtype":"textfield"
+         }
+      }
+   ],
+   "group":"request",
+   "result":{
+      "code":1,
+      "desc":"OK",
+      "message":"OK"
+   }
+}

@@ -1,3 +1,33 @@
+@full-width : 1024px;
+
+* {
+	outline:0;
+	margin:0;
+	padding:0;
+}
+
 body {
-	background-color:#f3b600;
+	background-color:#404040;
+}
+
+.container {
+	width: @full-width;
+	border:1px solid lightgrey;
+	margin: 10px auto 0;
+	background-color:#eee;
+	padding:10px;
+}
+
+.box {
+	padding:10px;
+	display:inline-block;
+}
+
+.tab-content {
+	background-color:#fff;
+	padding:10px;
+	margin-top:-18px;
+	border-left: 1px #ddd solid;
+	border-right: 1px #ddd solid;
+	border-bottom: 1px #ddd solid;
 }
